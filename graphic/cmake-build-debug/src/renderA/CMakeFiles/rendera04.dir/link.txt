@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/rendera04.dir/render-test04.cpp.o CMakeFiles/rendera04.dir/render/gi.cpp.o CMakeFiles/rendera04.dir/render/impl/SDL/sdl_imp.cpp.o CMakeFiles/rendera04.dir/render/transform.cpp.o  -o rendera04 -lSDL2-2.0 -lSDL2_image -lSDL2_ttf -lSDL2_mixer 

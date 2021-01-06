@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graphic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\;CMake Files\src\;CMake Files\src\renderA\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphic">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/graphic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 graphic"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphic/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/graphic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 graphic/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera02">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera02/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera01">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera01/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera03">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera03/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera04">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera04/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera05">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera05/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera06">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rendera06/fast">
+				<Option output="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/rendera06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src"/>
+					<Add directory="/home/art4/data/dev/github/cpplib/graphic/src/renderA/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 rendera06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/main.cpp">
+			<Option target="graphic"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render-test01.cpp">
+			<Option target="graphic"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render-test02.cpp">
+			<Option target="rendera02"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render-test03.cpp">
+			<Option target="rendera03"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render-test04.cpp">
+			<Option target="rendera04"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render-test05.cpp">
+			<Option target="rendera05"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render-test06.cpp">
+			<Option target="rendera06"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/gi.cpp">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+			<Option target="rendera03"/>
+			<Option target="rendera04"/>
+			<Option target="rendera05"/>
+			<Option target="rendera06"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/gi.h">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/impl/SDL/sdl_imp.cpp">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+			<Option target="rendera03"/>
+			<Option target="rendera04"/>
+			<Option target="rendera05"/>
+			<Option target="rendera06"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/impl/SDL/sdl_imp.h">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/impl/SDL/sdl_init.h">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/impl/giimp.h">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/render_include.h">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/render_matrix.hpp">
+			<Option target="rendera02"/>
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/transform.cpp">
+			<Option target="rendera01"/>
+			<Option target="rendera04"/>
+			<Option target="rendera05"/>
+			<Option target="rendera06"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/transform.h">
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/render/transform_key.h">
+			<Option target="rendera01"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/type/constant.h">
+			<Option target="graphic"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/type/constant_eval.cpp">
+			<Option target="graphic"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/type/traits.hpp">
+			<Option target="graphic"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/util/memory.hpp">
+			<Option target="graphic"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/art4/data/dev/github/cpplib/graphic/src/renderA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\renderA\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

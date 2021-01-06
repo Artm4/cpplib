@@ -1,0 +1,11 @@
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/CMakeFiles/graphic.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rebuild_cache.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rendera02.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/edit_cache.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rendera01.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rendera03.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rendera04.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rendera05.dir
+/home/art4/data/dev/github/cpplib/graphic/cmake-build-debug/src/renderA/CMakeFiles/rendera06.dir

@@ -1,0 +1,58 @@
+Implement with cpp/templates:
+* sort algorithms [CLRS]:
+ - insert
+ - select
+ - bubble
+ - shell(insert opt)
+ - merge
+ - quick
+ - heap sort
+ - count
+ - radix
+ - bucket
+
+* elementary data structures [CLRS]:
+ - stack [LIFO]
+ - queue [FIFO]
+ - dequeue [Container]
+ - priority queue [CLSRS,CTAA]
+ - linked list [Container]
+ - doubly linked list
+ - binary search tree (ref to heap sort)
+ - hash map [Container]
+ - multi-key map [table, Container] [CTAA]
+ - red-black tree [binary search tree, Container]
+ - B-trees [Container]
+ - Quadtrees and Octrees [CTAA]
+
+* graph algorithms [CLRS]
+ - graph structure as linked list
+ - BFS
+ - DFS
+ - topological sort
+ - minimum spanning trees [connecting trees]
+ - Kruskal and Prim [MSP]
+ - Bellman-Ford [shortest path]
+ - Dijkstra [shortest path]
+
+* Containers
+ - vector
+ - list
+ - set, multi set
+ - map, multi map
+ - hash set, hash multi set, hash map, hash multimap 
+ - tuple [SCPP]
+
+* Template techniques:
+ - to do...
+
+Legend:
+* CLRS - Cormen
+* CTAA - Core Techniques and Algorithms
+* SCPP - Stroustrup
+* RSALG - [Robert Sedgewick,Kevin Wayne] Algorithms in C/C++ 4th_Ed
+
+Note:
+* Implement structures as containers with Policy.
+* Check Stroustrup for Container implementation with Policy template parameter.
+* Make Iterator support for all structures (where possible)
