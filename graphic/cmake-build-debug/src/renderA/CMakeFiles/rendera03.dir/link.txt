@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/rendera03.dir/render-test03.cpp.o CMakeFiles/rendera03.dir/render/gi.cpp.o CMakeFiles/rendera03.dir/render/impl/SDL/sdl_imp.cpp.o  -o rendera03 -lSDL2-2.0 -lSDL2_image -lSDL2_ttf -lSDL2_mixer 
